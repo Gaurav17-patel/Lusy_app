@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* LucyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LucyTests.m */; };
+		013C01CCC8BC4B138EB8A10B /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95D02DB5628D406FBB14CD67 /* Montserrat-BlackItalic.ttf */; };
+		02F1CDBAE62F4F09805BC42A /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4593BB8B9BE44B8B9EBBF70 /* Montserrat-MediumItalic.ttf */; };
+		04001D1130AD4DB38AB393C3 /* WorkSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8CF465A8BA34C5ABD75F18B /* WorkSans-ExtraBold.ttf */; };
+		07952D77C9EC4E0CB0786818 /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91BF334A82EA4F3E89E36461 /* WorkSans-Bold.ttf */; };
+		0D247E84549142658E166197 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1881723D4D040AF84C06F3F /* Montserrat-BoldItalic.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2241DD7FDC064C4ABEC9B034 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D42E5F60DB94A18B4ED47FE /* Montserrat-ExtraBoldItalic.ttf */; };
+		33E21A1C974A4684BDFC985C /* WorkSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54AE097B2080417F8D0F028C /* WorkSans-BlackItalic.ttf */; };
+		39C3376FA424468E80F47B6D /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A53985A1DF14567A6DC6FDA /* Montserrat-Italic.ttf */; };
+		3DACCAB566D717F1CFD0599E /* libPods-Lucy-LucyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C38731269E1E33A85F066C1E /* libPods-Lucy-LucyTests.a */; };
+		3E64C8458795406DB8DC38FB /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB810317E0E54362816F186E /* Montserrat-ExtraBold.ttf */; };
+		4994874552204C5D99A975DB /* WorkSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3EF7EB80337449EAC8810DB /* WorkSans-LightItalic.ttf */; };
+		52B08ABDF64A4EC3AE3C7BE9 /* WorkSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C17B5FA509D4B08A67B2925 /* WorkSans-Black.ttf */; };
+		5C530E4FDADC452C89452299 /* WorkSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CDAAFFE990542A193784CF6 /* WorkSans-ExtraBoldItalic.ttf */; };
+		5E8DC2D0132E49D88C0C572F /* WorkSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF0725B243A94621AF050E37 /* WorkSans-Thin.ttf */; };
+		6A7C9F725F2848A295EA2A79 /* WorkSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC9A392103FB4370ABB2FEE1 /* WorkSans-ThinItalic.ttf */; };
+		6B9AB8BDC34C4D04B5C69A0B /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B736E52C03ED4049906F799D /* Montserrat-Medium.ttf */; };
+		742FD79C95A14FC8AB504F41 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 943C3585787A4AA5AE45A853 /* Montserrat-LightItalic.ttf */; };
+		7A696F2092684258A5571AB5 /* WorkSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4623F5A8D2C946D48E6CD456 /* WorkSans-ExtraLightItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		942CBF91F9F04D08A5B8AE8A /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2974420A54B340BD942F725F /* Montserrat-Bold.ttf */; };
+		96DD08838C7E4903AA8950F6 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E7808378D46D5BDE527C0 /* Montserrat-ThinItalic.ttf */; };
+		A114E4EFFD84D73BD47FC06F /* libPods-Lucy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04610A391D050F6A35EF86B0 /* libPods-Lucy.a */; };
+		A5122B6781BC4B0A80ACB7BD /* WorkSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C029DE4FFE34541B69774FB /* WorkSans-ExtraLight.ttf */; };
+		A7F4C798F5AC4885AFBDE009 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97B1A095D5624132904CBFD6 /* Montserrat-Black.ttf */; };
+		AC9448DCA521477490991D29 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 246E834DCD5641CA84A393DA /* Montserrat-ExtraLight.ttf */; };
+		BD5ECDF0FADE44CEA6CC0FA5 /* WorkSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60D75922EF6243B98CC14577 /* WorkSans-Italic.ttf */; };
+		D1598C66ED254BD7B8810BE2 /* WorkSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5608DF7A6E9146B997553E8B /* WorkSans-SemiBoldItalic.ttf */; };
+		D3A96AFAFFBD461DBD844FE8 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3765918CFE2844E6826492CE /* Montserrat-ExtraLightItalic.ttf */; };
+		D7BAFD485CD3443DB2DD842C /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50FFD930006444B491A2B525 /* Montserrat-Light.ttf */; };
+		D812B29750CA4AB58D1895E0 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B33CD869BCD4E598280557E /* Montserrat-SemiBoldItalic.ttf */; };
+		DBD915ABF1C54EACAFD66510 /* WorkSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08209ADE09F041CB97E0E462 /* WorkSans-BoldItalic.ttf */; };
+		DDFC6CAFC34E4AF0BF0DA13C /* WorkSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DFB178DE0C54E8C8E709643 /* WorkSans-SemiBold.ttf */; };
+		E1377A90492647609B4D2824 /* WorkSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6E1203D27104179BB3F2265 /* WorkSans-Light.ttf */; };
+		EAA005F07C964B7AB6C7197D /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972F708EACF44578B68F21B8 /* Montserrat-Thin.ttf */; };
+		ECAF85BFB14C4169B67F1C83 /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3E9F2FC4695441E8ADB46B8 /* WorkSans-Regular.ttf */; };
+		F091B6E249C44E90B81337A0 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E92286F66344D24A812949A /* Montserrat-SemiBold.ttf */; };
+		F70FB6A28C1B43D7AA9738D6 /* WorkSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA32AB6DA9214B6780374D75 /* WorkSans-MediumItalic.ttf */; };
+		FABA057F1A2F4FAD9D75A577 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80E1BF12D25E43D9BAAEAA82 /* Montserrat-Regular.ttf */; };
+		FDCE9639F0C84AA7A9C106C7 /* WorkSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BE19482FFA147F2B5D3BE9B /* WorkSans-Medium.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Lucy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* LucyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LucyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* LucyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LucyTests.m; sourceTree = "<group>"; };
+		04610A391D050F6A35EF86B0 /* libPods-Lucy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lucy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08209ADE09F041CB97E0E462 /* WorkSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-BoldItalic.ttf"; path = "../src/assets/Fonts/WorkSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0C17B5FA509D4B08A67B2925 /* WorkSans-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Black.ttf"; path = "../src/assets/Fonts/WorkSans-Black.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Lucy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Lucy/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Lucy/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Lucy/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Lucy/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Lucy/main.m; sourceTree = "<group>"; };
+		1CC6DD690BB187AEB013E68F /* Pods-Lucy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy.debug.xcconfig"; path = "Target Support Files/Pods-Lucy/Pods-Lucy.debug.xcconfig"; sourceTree = "<group>"; };
+		246E834DCD5641CA84A393DA /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../src/assets/Fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		25D0A6D2589706C47667A3C8 /* Pods-LucyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucyTests.debug.xcconfig"; path = "Target Support Files/Pods-LucyTests/Pods-LucyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2974420A54B340BD942F725F /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../src/assets/Fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		2B33CD869BCD4E598280557E /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../src/assets/Fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		2B5E7808378D46D5BDE527C0 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../src/assets/Fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		2E92286F66344D24A812949A /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/Fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		3765918CFE2844E6826492CE /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../src/assets/Fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		3A53985A1DF14567A6DC6FDA /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../src/assets/Fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		40D23974FCEFF2EC1ECDC20D /* Pods-Lucy-LucyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy-LucyTests.debug.xcconfig"; path = "Target Support Files/Pods-Lucy-LucyTests/Pods-Lucy-LucyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4623F5A8D2C946D48E6CD456 /* WorkSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-ExtraLightItalic.ttf"; path = "../src/assets/Fonts/WorkSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		4BE19482FFA147F2B5D3BE9B /* WorkSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Medium.ttf"; path = "../src/assets/Fonts/WorkSans-Medium.ttf"; sourceTree = "<group>"; };
+		50FFD930006444B491A2B525 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../src/assets/Fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		54AE097B2080417F8D0F028C /* WorkSans-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-BlackItalic.ttf"; path = "../src/assets/Fonts/WorkSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		5608DF7A6E9146B997553E8B /* WorkSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-SemiBoldItalic.ttf"; path = "../src/assets/Fonts/WorkSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		5C029DE4FFE34541B69774FB /* WorkSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-ExtraLight.ttf"; path = "../src/assets/Fonts/WorkSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5EDF84CA0DFF741FFF687A68 /* Pods-LucyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucyTests.release.xcconfig"; path = "Target Support Files/Pods-LucyTests/Pods-LucyTests.release.xcconfig"; sourceTree = "<group>"; };
+		60D75922EF6243B98CC14577 /* WorkSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Italic.ttf"; path = "../src/assets/Fonts/WorkSans-Italic.ttf"; sourceTree = "<group>"; };
+		6994EC8189013FDEE73E7B43 /* Pods-Lucy-LucyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy-LucyTests.release.xcconfig"; path = "Target Support Files/Pods-Lucy-LucyTests/Pods-Lucy-LucyTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CDAAFFE990542A193784CF6 /* WorkSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-ExtraBoldItalic.ttf"; path = "../src/assets/Fonts/WorkSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7DFB178DE0C54E8C8E709643 /* WorkSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-SemiBold.ttf"; path = "../src/assets/Fonts/WorkSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		80E1BF12D25E43D9BAAEAA82 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/Fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Lucy/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91BF334A82EA4F3E89E36461 /* WorkSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Bold.ttf"; path = "../src/assets/Fonts/WorkSans-Bold.ttf"; sourceTree = "<group>"; };
+		943C3585787A4AA5AE45A853 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../src/assets/Fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		95D02DB5628D406FBB14CD67 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../src/assets/Fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		972F708EACF44578B68F21B8 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../src/assets/Fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		97B1A095D5624132904CBFD6 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../src/assets/Fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		9D42E5F60DB94A18B4ED47FE /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../src/assets/Fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A6E1203D27104179BB3F2265 /* WorkSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Light.ttf"; path = "../src/assets/Fonts/WorkSans-Light.ttf"; sourceTree = "<group>"; };
+		AA32AB6DA9214B6780374D75 /* WorkSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-MediumItalic.ttf"; path = "../src/assets/Fonts/WorkSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B4593BB8B9BE44B8B9EBBF70 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../src/assets/Fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B736E52C03ED4049906F799D /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/assets/Fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		B8CF465A8BA34C5ABD75F18B /* WorkSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-ExtraBold.ttf"; path = "../src/assets/Fonts/WorkSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C38731269E1E33A85F066C1E /* libPods-Lucy-LucyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lucy-LucyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9A392103FB4370ABB2FEE1 /* WorkSans-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-ThinItalic.ttf"; path = "../src/assets/Fonts/WorkSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		DB810317E0E54362816F186E /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../src/assets/Fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DF0725B243A94621AF050E37 /* WorkSans-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Thin.ttf"; path = "../src/assets/Fonts/WorkSans-Thin.ttf"; sourceTree = "<group>"; };
+		E1BAA286FED248D69C426D66 /* Pods-Lucy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy.release.xcconfig"; path = "Target Support Files/Pods-Lucy/Pods-Lucy.release.xcconfig"; sourceTree = "<group>"; };
+		E3EF7EB80337449EAC8810DB /* WorkSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-LightItalic.ttf"; path = "../src/assets/Fonts/WorkSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1881723D4D040AF84C06F3F /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../src/assets/Fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F3E9F2FC4695441E8ADB46B8 /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Regular.ttf"; path = "../src/assets/Fonts/WorkSans-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DACCAB566D717F1CFD0599E /* libPods-Lucy-LucyTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A114E4EFFD84D73BD47FC06F /* libPods-Lucy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* LucyTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* LucyTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = LucyTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Lucy */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Lucy;
+			sourceTree = "<group>";
+		};
+		2C4BD12CE4854812B5DA79EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97B1A095D5624132904CBFD6 /* Montserrat-Black.ttf */,
+				95D02DB5628D406FBB14CD67 /* Montserrat-BlackItalic.ttf */,
+				2974420A54B340BD942F725F /* Montserrat-Bold.ttf */,
+				F1881723D4D040AF84C06F3F /* Montserrat-BoldItalic.ttf */,
+				DB810317E0E54362816F186E /* Montserrat-ExtraBold.ttf */,
+				9D42E5F60DB94A18B4ED47FE /* Montserrat-ExtraBoldItalic.ttf */,
+				246E834DCD5641CA84A393DA /* Montserrat-ExtraLight.ttf */,
+				3765918CFE2844E6826492CE /* Montserrat-ExtraLightItalic.ttf */,
+				3A53985A1DF14567A6DC6FDA /* Montserrat-Italic.ttf */,
+				50FFD930006444B491A2B525 /* Montserrat-Light.ttf */,
+				943C3585787A4AA5AE45A853 /* Montserrat-LightItalic.ttf */,
+				B736E52C03ED4049906F799D /* Montserrat-Medium.ttf */,
+				B4593BB8B9BE44B8B9EBBF70 /* Montserrat-MediumItalic.ttf */,
+				80E1BF12D25E43D9BAAEAA82 /* Montserrat-Regular.ttf */,
+				2E92286F66344D24A812949A /* Montserrat-SemiBold.ttf */,
+				2B33CD869BCD4E598280557E /* Montserrat-SemiBoldItalic.ttf */,
+				972F708EACF44578B68F21B8 /* Montserrat-Thin.ttf */,
+				2B5E7808378D46D5BDE527C0 /* Montserrat-ThinItalic.ttf */,
+				0C17B5FA509D4B08A67B2925 /* WorkSans-Black.ttf */,
+				54AE097B2080417F8D0F028C /* WorkSans-BlackItalic.ttf */,
+				91BF334A82EA4F3E89E36461 /* WorkSans-Bold.ttf */,
+				08209ADE09F041CB97E0E462 /* WorkSans-BoldItalic.ttf */,
+				B8CF465A8BA34C5ABD75F18B /* WorkSans-ExtraBold.ttf */,
+				6CDAAFFE990542A193784CF6 /* WorkSans-ExtraBoldItalic.ttf */,
+				5C029DE4FFE34541B69774FB /* WorkSans-ExtraLight.ttf */,
+				4623F5A8D2C946D48E6CD456 /* WorkSans-ExtraLightItalic.ttf */,
+				60D75922EF6243B98CC14577 /* WorkSans-Italic.ttf */,
+				A6E1203D27104179BB3F2265 /* WorkSans-Light.ttf */,
+				E3EF7EB80337449EAC8810DB /* WorkSans-LightItalic.ttf */,
+				4BE19482FFA147F2B5D3BE9B /* WorkSans-Medium.ttf */,
+				AA32AB6DA9214B6780374D75 /* WorkSans-MediumItalic.ttf */,
+				F3E9F2FC4695441E8ADB46B8 /* WorkSans-Regular.ttf */,
+				7DFB178DE0C54E8C8E709643 /* WorkSans-SemiBold.ttf */,
+				5608DF7A6E9146B997553E8B /* WorkSans-SemiBoldItalic.ttf */,
+				DF0725B243A94621AF050E37 /* WorkSans-Thin.ttf */,
+				CC9A392103FB4370ABB2FEE1 /* WorkSans-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				04610A391D050F6A35EF86B0 /* libPods-Lucy.a */,
+				C38731269E1E33A85F066C1E /* libPods-Lucy-LucyTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Lucy */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* LucyTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				2C4BD12CE4854812B5DA79EF /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Lucy.app */,
+				00E356EE1AD99517003FC87E /* LucyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CC6DD690BB187AEB013E68F /* Pods-Lucy.debug.xcconfig */,
+				E1BAA286FED248D69C426D66 /* Pods-Lucy.release.xcconfig */,
+				25D0A6D2589706C47667A3C8 /* Pods-LucyTests.debug.xcconfig */,
+				5EDF84CA0DFF741FFF687A68 /* Pods-LucyTests.release.xcconfig */,
+				40D23974FCEFF2EC1ECDC20D /* Pods-Lucy-LucyTests.debug.xcconfig */,
+				6994EC8189013FDEE73E7B43 /* Pods-Lucy-LucyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* LucyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LucyTests" */;
+			buildPhases = (
+				E0D7677D677A4233B554733C /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				547ADBE36527AEBDBDF2579E /* [CP] Embed Pods Frameworks */,
+				B3BBB7F265CC48DAF7BB104F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = LucyTests;
+			productName = LucyTests;
+			productReference = 00E356EE1AD99517003FC87E /* LucyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Lucy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Lucy" */;
+			buildPhases = (
+				B6CEE0FB67ACEE02E446B867 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				6EDA297D740E49519B1A1D65 /* [CP] Embed Pods Frameworks */,
+				4422E8A16F188D66A1DF3FC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lucy;
+			productName = Lucy;
+			productReference = 13B07F961A680F5B00A75B9A /* Lucy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Lucy" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Lucy */,
+				00E356ED1AD99517003FC87E /* LucyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A7F4C798F5AC4885AFBDE009 /* Montserrat-Black.ttf in Resources */,
+				013C01CCC8BC4B138EB8A10B /* Montserrat-BlackItalic.ttf in Resources */,
+				942CBF91F9F04D08A5B8AE8A /* Montserrat-Bold.ttf in Resources */,
+				0D247E84549142658E166197 /* Montserrat-BoldItalic.ttf in Resources */,
+				3E64C8458795406DB8DC38FB /* Montserrat-ExtraBold.ttf in Resources */,
+				2241DD7FDC064C4ABEC9B034 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				AC9448DCA521477490991D29 /* Montserrat-ExtraLight.ttf in Resources */,
+				D3A96AFAFFBD461DBD844FE8 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				39C3376FA424468E80F47B6D /* Montserrat-Italic.ttf in Resources */,
+				D7BAFD485CD3443DB2DD842C /* Montserrat-Light.ttf in Resources */,
+				742FD79C95A14FC8AB504F41 /* Montserrat-LightItalic.ttf in Resources */,
+				6B9AB8BDC34C4D04B5C69A0B /* Montserrat-Medium.ttf in Resources */,
+				02F1CDBAE62F4F09805BC42A /* Montserrat-MediumItalic.ttf in Resources */,
+				FABA057F1A2F4FAD9D75A577 /* Montserrat-Regular.ttf in Resources */,
+				F091B6E249C44E90B81337A0 /* Montserrat-SemiBold.ttf in Resources */,
+				D812B29750CA4AB58D1895E0 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				EAA005F07C964B7AB6C7197D /* Montserrat-Thin.ttf in Resources */,
+				96DD08838C7E4903AA8950F6 /* Montserrat-ThinItalic.ttf in Resources */,
+				52B08ABDF64A4EC3AE3C7BE9 /* WorkSans-Black.ttf in Resources */,
+				33E21A1C974A4684BDFC985C /* WorkSans-BlackItalic.ttf in Resources */,
+				07952D77C9EC4E0CB0786818 /* WorkSans-Bold.ttf in Resources */,
+				DBD915ABF1C54EACAFD66510 /* WorkSans-BoldItalic.ttf in Resources */,
+				04001D1130AD4DB38AB393C3 /* WorkSans-ExtraBold.ttf in Resources */,
+				5C530E4FDADC452C89452299 /* WorkSans-ExtraBoldItalic.ttf in Resources */,
+				A5122B6781BC4B0A80ACB7BD /* WorkSans-ExtraLight.ttf in Resources */,
+				7A696F2092684258A5571AB5 /* WorkSans-ExtraLightItalic.ttf in Resources */,
+				BD5ECDF0FADE44CEA6CC0FA5 /* WorkSans-Italic.ttf in Resources */,
+				E1377A90492647609B4D2824 /* WorkSans-Light.ttf in Resources */,
+				4994874552204C5D99A975DB /* WorkSans-LightItalic.ttf in Resources */,
+				FDCE9639F0C84AA7A9C106C7 /* WorkSans-Medium.ttf in Resources */,
+				F70FB6A28C1B43D7AA9738D6 /* WorkSans-MediumItalic.ttf in Resources */,
+				ECAF85BFB14C4169B67F1C83 /* WorkSans-Regular.ttf in Resources */,
+				DDFC6CAFC34E4AF0BF0DA13C /* WorkSans-SemiBold.ttf in Resources */,
+				D1598C66ED254BD7B8810BE2 /* WorkSans-SemiBoldItalic.ttf in Resources */,
+				5E8DC2D0132E49D88C0C572F /* WorkSans-Thin.ttf in Resources */,
+				6A7C9F725F2848A295EA2A79 /* WorkSans-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		4422E8A16F188D66A1DF3FC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lucy/Pods-Lucy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lucy/Pods-Lucy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lucy/Pods-Lucy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		547ADBE36527AEBDBDF2579E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lucy-LucyTests/Pods-Lucy-LucyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lucy-LucyTests/Pods-Lucy-LucyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lucy-LucyTests/Pods-Lucy-LucyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EDA297D740E49519B1A1D65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lucy/Pods-Lucy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lucy/Pods-Lucy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lucy/Pods-Lucy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3BBB7F265CC48DAF7BB104F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lucy-LucyTests/Pods-Lucy-LucyTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lucy-LucyTests/Pods-Lucy-LucyTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lucy-LucyTests/Pods-Lucy-LucyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CEE0FB67ACEE02E446B867 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lucy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D7677D677A4233B554733C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lucy-LucyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* LucyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Lucy */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D23974FCEFF2EC1ECDC20D /* Pods-Lucy-LucyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LucyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucy.app/Lucy";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6994EC8189013FDEE73E7B43 /* Pods-Lucy-LucyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = LucyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucy.app/Lucy";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC6DD690BB187AEB013E68F /* Pods-Lucy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9TT953HMQ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Lucy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Lucy;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BAA286FED248D69C426D66 /* Pods-Lucy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9TT953HMQ;
+				INFOPLIST_FILE = Lucy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Lucy;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LucyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Lucy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Lucy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
